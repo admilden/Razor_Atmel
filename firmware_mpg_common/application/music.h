@@ -14,12 +14,14 @@ Definitions for musical notes
 #define QUARTER_NOTE              (u16)(MEASURE_TIME / 4)
 #define EIGHTH_NOTE               (u16)(MEASURE_TIME / 8)
 #define SIXTEENTH_NOTE            (u16)(MEASURE_TIME / 16)
+#define THIRTYSECOND_NOTE         (u16)(MEASURE_TIME / 32)
 
 #define FN                        FULL_NOTE                 
 #define HN                        HALF_NOTE                 
 #define QN                        QUARTER_NOTE              
 #define EN                        EIGHTH_NOTE               
-#define SN                        SIXTEENTH_NOTE            
+#define SN                        SIXTEENTH_NOTE
+#define TN                        THIRTYSECOND_NOTE
 
 /* Note length adjustments */
 #define REGULAR_NOTE_ADJUSTMENT   (u16)50
