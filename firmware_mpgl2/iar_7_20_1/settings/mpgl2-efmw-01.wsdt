@@ -10,12 +10,24 @@
     <Static>
       <Workspace>
         <ColumnWidths>
-          <Column0>233</Column0>
+          <Column0>216</Column0>
           <Column1>27</Column1>
           <Column2>27</Column2>
           <Column3>27</Column3>
         </ColumnWidths>
       </Workspace>
+      <Build>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>1395</ColumnWidth1>
+        <ColumnWidth2>372</ColumnWidth2>
+        <ColumnWidth3>93</ColumnWidth3>
+      </Build>
+      <Find-in-Files>
+        <ColumnWidth0>569</ColumnWidth0>
+        <ColumnWidth1>94</ColumnWidth1>
+        <ColumnWidth2>854</ColumnWidth2>
+        <ColumnWidth3>379</ColumnWidth3>
+      </Find-in-Files>
     </Static>
     <Windows>
       <Wnd0>
@@ -27,13 +39,34 @@
             <Session>
               <NodeDict>
                 <ExpandedNode>mpgl2-efmw-01</ExpandedNode>
+                <ExpandedNode>mpgl2-efmw-01/_BSP</ExpandedNode>
+                <ExpandedNode>mpgl2-efmw-01/_BSP/Includes</ExpandedNode>
                 <ExpandedNode>mpgl2-efmw-01/_Drivers</ExpandedNode>
+                <ExpandedNode>mpgl2-efmw-01/_Drivers/Include</ExpandedNode>
+                <ExpandedNode>mpgl2-efmw-01/_Drivers/Source</ExpandedNode>
               </NodeDict>
             </Session>
           </Tab>
         </Tabs>
         <SelectedTab>0</SelectedTab>
       </Wnd0>
+      <Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-5852-11770</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-32264-14755</Identity>
+            <TabName>Find in Files</TabName>
+            <Factory>Find-in-Files</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        <SelectedTab>0</SelectedTab>
+      </Wnd1>
     </Windows>
     <Editor>
       <Pane>
@@ -51,7 +84,68 @@
         </Tab>
         <Tab>
           <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\..\application\main.c</Filename>
+          <Filename>$WS_DIR$\..\..\firmware_mpg_common\board_cstartup_iar.c</Filename>
+          <XPos>0</XPos>
+          <YPos>0</YPos>
+          <SelStart>0</SelStart>
+          <SelEnd>0</SelEnd>
+          <XPos2>0</XPos2>
+          <YPos2>91</YPos2>
+          <SelStart2>5585</SelStart2>
+          <SelEnd2>5600</SelEnd2>
+        </Tab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\..\..\firmware_mpg_common\drivers\leds.c</Filename>
+          <XPos>0</XPos>
+          <YPos>0</YPos>
+          <SelStart>0</SelStart>
+          <SelEnd>0</SelEnd>
+          <XPos2>0</XPos2>
+          <YPos2>0</YPos2>
+          <SelStart2>390</SelStart2>
+          <SelEnd2>390</SelEnd2>
+        </Tab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\..\..\firmware_mpg_common\drivers\exceptions.c</Filename>
+          <XPos>0</XPos>
+          <YPos>0</YPos>
+          <SelStart>0</SelStart>
+          <SelEnd>0</SelEnd>
+          <XPos2>0</XPos2>
+          <YPos2>31</YPos2>
+          <SelStart2>2640</SelStart2>
+          <SelEnd2>2640</SelEnd2>
+        </Tab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\..\..\firmware_mpg_common\drivers\exceptions.h</Filename>
+          <XPos>0</XPos>
+          <YPos>0</YPos>
+          <SelStart>0</SelStart>
+          <SelEnd>0</SelEnd>
+          <XPos2>0</XPos2>
+          <YPos2>19</YPos2>
+          <SelStart2>1972</SelStart2>
+          <SelEnd2>1972</SelEnd2>
+        </Tab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\..\..\firmware_mpg_common\configuration.h</Filename>
+          <XPos>0</XPos>
+          <YPos>0</YPos>
+          <SelStart>0</SelStart>
+          <SelEnd>0</SelEnd>
+          <XPos2>0</XPos2>
+          <YPos2>0</YPos2>
+          <SelStart2>597</SelStart2>
+          <SelEnd2>597</SelEnd2>
+        </Tab>
+        <ActiveTab>5</ActiveTab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\..\..\firmware_mpg_common\AT91SAM3U4.h</Filename>
           <XPos>0</XPos>
           <YPos>0</YPos>
           <SelStart>0</SelStart>
@@ -61,7 +155,6 @@
           <SelStart2>0</SelStart2>
           <SelEnd2>0</SelEnd2>
         </Tab>
-        <ActiveTab>1</ActiveTab>
       </Pane>
       <ActivePane>0</ActivePane>
       <Sizes>
@@ -89,7 +182,7 @@
               <Rect>
                 <Top>-2</Top>
                 <Left>-2</Left>
-                <Bottom>952</Bottom>
+                <Bottom>754</Bottom>
                 <Right>307</Right>
                 <x>-2</x>
                 <y>-2</y>
@@ -98,7 +191,7 @@
                 <sizeHorzCX>104167</sizeHorzCX>
                 <sizeHorzCY>200602</sizeHorzCY>
                 <sizeVertCX>160938</sizeVertCX>
-                <sizeVertCY>956871</sizeVertCY>
+                <sizeVertCY>758275</sizeVertCY>
               </Rect>
             </Wnd0>
           </Sizes>
@@ -111,7 +204,24 @@
       </Right>
       <Bottom>
         <Row0>
-          <Sizes/>
+          <Sizes>
+            <Wnd1>
+              <Rect>
+                <Top>-2</Top>
+                <Left>-2</Left>
+                <Bottom>198</Bottom>
+                <Right>1922</Right>
+                <x>-2</x>
+                <y>-2</y>
+                <xscreen>1924</xscreen>
+                <yscreen>200</yscreen>
+                <sizeHorzCX>1002083</sizeHorzCX>
+                <sizeHorzCY>200602</sizeHorzCY>
+                <sizeVertCX>104167</sizeVertCX>
+                <sizeVertCY>200602</sizeVertCY>
+              </Rect>
+            </Wnd1>
+          </Sizes>
         </Row0>
       </Bottom>
       <Float>
