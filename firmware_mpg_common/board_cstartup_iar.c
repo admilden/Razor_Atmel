@@ -28,8 +28,11 @@
  */
 
 #include "configuration.h"
-
-
+   
+// I just added this from another file, but I will probably have to change or remove this at some point. 
+// It is here so that this name is defined. I'm not sure exactly what I can and can't remove from this file 
+//( as it is made ny ATMEL) so I'm reluctant to remove it entirely at this point.
+typedef void( *IntFunc )( void );
 
 //------------------------------------------------------------------------------
 //         Types

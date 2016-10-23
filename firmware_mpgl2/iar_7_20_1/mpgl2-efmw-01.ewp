@@ -2101,9 +2101,6 @@
       <file>
         <name>$PROJ_DIR$\..\..\firmware_mpg_common\application\music.h</name>
       </file>
-      <file>
-        <name>$PROJ_DIR$\..\..\firmware_mpg_common\application\user_app.h</name>
-      </file>
     </group>
     <group>
       <name>Source</name>
@@ -2112,9 +2109,6 @@
       </file>
       <file>
         <name>$PROJ_DIR$\..\application\main.c</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\..\..\firmware_mpg_common\application\user_app.c</name>
       </file>
     </group>
   </group>
