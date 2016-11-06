@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "D:\Documents\GitHub\Razor_Atmel\firmware_mpgl2\iar_7_20_1\settings\mpgl2-efmw-01.Debug.general.xcl" --backend -f "D:\Documents\GitHub\Razor_Atmel\firmware_mpgl2\iar_7_20_1\settings\mpgl2-efmw-01.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "C:\Users\Alex Mildenberger\Documents\GitHub\Razor_Atmel\firmware_mpgl2\iar_7_20_1\settings\mpgl2-efmw-01.Debug.general.xcl" --backend -f "C:\Users\Alex Mildenberger\Documents\GitHub\Razor_Atmel\firmware_mpgl2\iar_7_20_1\settings\mpgl2-efmw-01.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "D:\Documents\GitHub\Razor_Atmel\firmware_mpgl2\iar_7_20_1\settings\mpgl2-efmw-01.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\Documents\GitHub\Razor_Atmel\firmware_mpgl2\iar_7_20_1\settings\mpgl2-efmw-01.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "C:\Users\Alex Mildenberger\Documents\GitHub\Razor_Atmel\firmware_mpgl2\iar_7_20_1\settings\mpgl2-efmw-01.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Alex Mildenberger\Documents\GitHub\Razor_Atmel\firmware_mpgl2\iar_7_20_1\settings\mpgl2-efmw-01.Debug.driver.xcl" 
 
 @echo off 
 :end
