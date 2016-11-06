@@ -6,7 +6,7 @@
 
 "-p" 
 
-"D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\CONFIG\debugger\Atmel\ATSAM3U2C.ddf" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\CONFIG\debugger\Atmel\ATSAM3U2C.ddf" 
 
 "--semihosting" 
 
