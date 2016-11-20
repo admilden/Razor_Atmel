@@ -1,14 +1,14 @@
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\bin\armproc.dll" 
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\bin\armproc.dll" 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\bin\armjlink2.dll" 
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\bin\armjlink2.dll" 
 
-"C:\Users\Alex Mildenberger\Documents\GitHub\Razor_Atmel\firmware_mpgl2\iar_7_20_1\Debug\Exe\mpgl2.out" 
+"D:\Documents\GitHub\Razor_Atmel\firmware_mpgl2\iar_7_20_1\Debug\Exe\mpgl2.out" 
 
---plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\bin\armbat.dll" 
+--plugin "D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\bin\armbat.dll" 
 
---device_macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\config\debugger\Atmel\SAM3U.dmac" 
+--device_macro "D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\config\debugger\Atmel\SAM3U.dmac" 
 
---flash_loader "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\config\flashloader\Atmel\sam3u2c\sam3u2c-flash.board" 
+--flash_loader "D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\config\flashloader\Atmel\sam3u2c\sam3u2c-flash.board" 
 
 
 
